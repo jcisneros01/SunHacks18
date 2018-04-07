@@ -1,0 +1,35 @@
+{
+  "name": "sunhacks18",
+  "version": "1.0.0",
+  "description": "spotifytindermashup",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-standard": "^1.6.6",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "forever": "^0.15.3",
+    "mongoose": "^5.0.0-rc2",
+    "nodemon": "^1.14.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcisneros01/SunHacks18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcisneros01/SunHacks18/issues"
+  },
+  "homepage": "https://github.com/jcisneros01/SunHacks18#readme"
+}
