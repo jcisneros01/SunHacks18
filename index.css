@@ -1,9 +1,30 @@
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+img { max-width: 100%; }
+
+
+html { font-size:100%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
 h1 { 
   float: left; 
   text-align: center;
 } 
 
-h3 { 
+h2 { 
   clear: left;
   text-align: center;
 }
@@ -20,18 +41,22 @@ h3 {
 }
 
 #thumbsUp {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
+    position: absolute;
+    margin-left: 450px;
+    margin-right: auto;
 }
 
+
 #thumbsDown {
-    background-color: #f44336;/* Green */
+    background-color: #f44336;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -39,6 +64,23 @@ h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    left: 50%;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
 }
+
+
+#imgContainer {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.nowrap{white-space: nowrap;}
 
